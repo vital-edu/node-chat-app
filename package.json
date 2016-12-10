@@ -1,0 +1,19 @@
+{
+  "name": "node-chat-app",
+  "version": "1.0.0",
+  "description": "Simple chat app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "autostart": "nodemon server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "6.9.1"
+  },
+  "author": "Eduardo Vital Alencar Cunha",
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
